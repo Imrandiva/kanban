@@ -1,14 +1,8 @@
 const { createClient } = require('@supabase/supabase-js');
 
 
-
-// const supabase = createClient({
-//   apiKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind6d3FvdXVvY25tbHl1ZGRlaW9oIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxMTg0MzU0MCwiZXhwIjoyMDI3NDE5NTQwfQ.iTgh4FATMxMyjkXY7e62oiUHut3yJNPHyk9jdtoznbQ',
-//   project: 'https://wzwqouuocnmlyuddeioh.supabase.co'
-// });
-
-const supabaseUrl = 'https://wzwqouuocnmlyuddeioh.supabase.co'
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind6d3FvdXVvY25tbHl1ZGRlaW9oIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxMTg0MzU0MCwiZXhwIjoyMDI3NDE5NTQwfQ.iTgh4FATMxMyjkXY7e62oiUHut3yJNPHyk9jdtoznbQ'
+const supabaseUrl = 'Add your supabase URL'
+const supabaseAnonKey = 'Add your supabase anon key'
 
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
