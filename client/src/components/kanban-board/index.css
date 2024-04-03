@@ -1,0 +1,124 @@
+.addthetask {
+    /* background-color: #488cfc; */
+   
+    background: #488cfc;
+    color: white;
+    margin:0.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+
+.addthetask:hover {
+    border: 2px solid #488cfc;
+    color: #488cfc;
+    background: none;
+}
+
+
+.card {
+    
+    border-radius: 10px;
+    transition: height 0.5s ease-in-out;
+    will-change: height;
+}
+.card:hover {
+    background-color: #b3d1ff;
+
+}
+
+.card-text {
+    min-width: 236px;
+    min-height: 350px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding-left: 0px;
+  }
+
+.li-content {
+height: 25px;
+}
+
+.taskIcon {
+    background: paleturquoise;
+    padding: 5px; 
+    border-radius: 50px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: black;
+    font-size: 8px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.taskIcon2 {
+    background: yellow; 
+    padding: 5px; 
+    border-radius: 50px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: black;
+    font-size: 8px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.taskIcon2:hover {
+    zoom: 120%;
+}
+
+.save-progress {
+    background-color: darkblue;
+    margin-top: 5%;
+
+
+
+}
+.save-progress:hover {
+    background-color: yellow;
+    color: black
+}   
+
+
+.datepicker-input {
+    /* Your custom styles here */
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 100%
+  }
+
+.createTask {
+    background-color: #488cfc;
+    color: white;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.5rem;
+
+}
+
+.createTask:hover {
+    background-color: white;
+    border: 2px solid #488cfc;
+    color: #488cfc;
+}
+
+.save{
+    background-color: white;
+    color: #488cfc  ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* margin: 0.5rem; */
+    font-weight: lighter;
+}
+
+.save:hover{
+    text-decoration: underline;
+}
